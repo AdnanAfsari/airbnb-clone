@@ -415,21 +415,23 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #008489;
 }
 
 a:focus {
-  text-decoration: none;
-  color: #008489;
+  text-decoration: underline;
 }
 
 a:active {
-  color: #008489;
+  text-decoration: underline;
 }
 
 .active {
   color: #008489;
   position: relative;
+}
+
+.active:hover {
+  text-decoration: none;
 }
 
 .active::after {
