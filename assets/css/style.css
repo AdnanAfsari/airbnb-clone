@@ -3,117 +3,15 @@
 | GLOBAL STYLES
 |----------------------------------------------------------------------------
 */
-/******************** TYPOGRAPHY ********************/
-html {
-  font-size: 16px;
+
+.navbar-right .btn-primary {
+  margin-right: 75px;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #696969;
-  font-size: 16px;
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url(https://a0.muscache.com/pictures/fe406606-ff51-4b7f-8095-16f2c720bb03.jpg);
 }
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #313131;
-}
-
-h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 4.5em;
-  font-weight: 600;
-  line-height: 1.04;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 50px;
-  font-weight: 100;
-  margin: 0;
-}
-
-h3 {
-  font-size: 36px;
-  font-weight: 300;
-}
-
-h4 {
-  font-size: 1.125em;
-  font-weight: 500;
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:focus {
-  text-decoration: none;
-}
-
-blockquote {
-  border: none;
-  padding: 0;
-}
-
-.text-small {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.sub-heading {
-  font-size: 20px;
-}
-
-.client-name {
-  font-style: italic;
-  display: block;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  h3 {
-    font-size: 2em;
-  }
-
-  p {
-    margin-bottom: 20px;
-  }
-}
-small, .font_small {
-  font-size: 0.707em;
-}
-
-.list-block li {
-  float: right;
-}
-
-/******************** ICONGRAPHY ********************/

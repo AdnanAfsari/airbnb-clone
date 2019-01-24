@@ -349,7 +349,7 @@ html {
 }
 
 body {
-  font-family: 'Circular', Roboto, Helvetica Neue, sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   color: #484848;
@@ -362,7 +362,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3333;
+  color: #3333 !important;
   text-transform: capitalize;
   margin: 0;
 }
@@ -388,6 +388,7 @@ h3 {
   line-height: 1.25em;
   padding-top: 2px;
   padding-bottom: 2px;
+  color: #484848 !important;
 }
 
 h4 {
@@ -408,18 +409,41 @@ ul li {
 a {
   text-decoration: none;
   background-color: transparent;
+  color: #484848;
+  font-weight: 600;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #008489;
 }
 
 a:focus {
   text-decoration: none;
+  color: #008489;
 }
 
 a:active {
   color: #008489;
+}
+
+.active {
+  color: #008489;
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  width: 60px;
+  background-color: #008489;
+  height: 2px;
+  position: absolute;
+  top: 46px;
+}
+
+span {
+  font-weight: 100;
 }
 
 /******************** GRIDE-SYSTEM ********************/
@@ -438,7 +462,7 @@ a:active {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container {
     max-width: 540px;
   }
@@ -644,9 +668,9 @@ i {
 /******************** BUTTONS ********************/
 .btn-primary {
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: 400;
   border-width: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -696,3 +720,36 @@ i {
 }
 
 /******************** NAVBAR ********************/
+
+.navbar {
+  height: 80px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left ul li {
+  padding-right: 33px;
+}
+
+.navbar-left ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  margin-left: auto;
+}
+
+.navbar-right ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right ul li {
+  padding-right: 18px;
+}
+
+.logo {
+  margin-left: 85px;
+}
