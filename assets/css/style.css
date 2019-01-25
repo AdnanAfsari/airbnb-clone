@@ -161,3 +161,22 @@ select {
   position: absolute;
   top: 46px;
 }
+
+/******************** MORE-ABOUT-HOSTING ********************/
+
+.more-about-hosting {
+  min-height: 300px;
+}
+
+.img-hosting {
+  width: 100%;
+  height: 220px;
+}
+
+.more-about-hosting .col-4 {
+  line-height: 1rem;
+}
+
+.more-about-hosting a {
+  color: #008489;
+}
