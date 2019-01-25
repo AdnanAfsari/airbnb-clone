@@ -130,3 +130,34 @@ select {
   font-size: 70px;
   font-weight: 300;
 }
+
+/******************** ABOUT-AIRBNB ********************/
+
+.about-airbnb {
+  min-height: 400px;
+}
+
+/******************** FAQ-SECTION ********************/
+
+.faq-section {
+  min-height: 400px;
+}
+
+.faq-section ul li {
+  padding-bottom: 40px;
+}
+
+.faq-active {
+  color: #008489;
+  position: relative;
+}
+
+.faq-active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #ddd;
+  height: 1px;
+  position: absolute;
+  top: 46px;
+}
