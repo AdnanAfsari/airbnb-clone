@@ -4,9 +4,27 @@
 |----------------------------------------------------------------------------
 */
 
-.navbar-right .btn-primary {
-  margin-right: 75px;
+/******************** TYPOGRAPHY ********************/
+
+h2,
+p {
+  color: #333;
 }
+
+h3 {
+  color: #484848;
+}
+
+/******************** HELPER-CLASS ********************/
+
+.hr-border {
+  margin: 0 auto;
+  height: 2px;
+  width: 65px;
+  background: #767676;
+}
+
+/******************** HEADER-SECTION ********************/
 
 .banner {
   display: flex;
@@ -15,7 +33,6 @@
   min-width: 500px;
   width: 100%;
   background-repeat: no-repeat;
-  position: absolute;
   z-index: -1;
   background-position: 0 0;
   background-size: cover;
@@ -26,4 +43,39 @@
   width: 100%;
   height: 400px;
   background: #fff;
+  padding: 34px;
+  border-radius: 5px;
+}
+
+/******* HEADER-FORM ******/
+
+input[type=text] {
+  padding: 16px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #7c7a7a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #7c7a7a;
+}
+
+select {
+  padding: 11px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #7c7a7a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #7c7a7a;
+  height: 47px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat 98.5% !important;
+}
+
+/******************** SHORT-BRIEF ********************/
+
+.short-brief {
+  min-height: 320px;
 }
