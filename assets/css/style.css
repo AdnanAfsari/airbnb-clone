@@ -114,6 +114,19 @@ select {
   color: #008489;
 }
 
+/******************** GOT-COVERED ********************/
+
 .payment {
   min-height: 900px;
+}
+
+/******************** GOT-COVERED ********************/
+
+.host-worldwide {
+  min-height: 300px;
+}
+
+.host-size {
+  font-size: 70px;
+  font-weight: 300;
 }
