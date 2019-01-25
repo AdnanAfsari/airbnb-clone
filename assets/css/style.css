@@ -121,13 +121,13 @@ select {
   color: #008489;
 }
 
-/******************** GOT-COVERED ********************/
+/******************** PAYMENT ********************/
 
 .payment {
   min-height: 900px;
 }
 
-/******************** GOT-COVERED ********************/
+/******************** HOST-WORLDWIDE ********************/
 
 .host-worldwide {
   min-height: 300px;
@@ -211,4 +211,19 @@ select {
   text-align: left;
   color: #fff;
   margin-bottom: 30px;
+}
+
+/******************** FOOTER ********************/
+
+.footer {
+  min-height: 500px;
+}
+
+.footer-brand {
+  margin-top: 25px;
+}
+
+.footer-brand img {
+  height: 20px;
+  width: 20px;
 }

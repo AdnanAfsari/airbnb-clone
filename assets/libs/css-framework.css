@@ -636,13 +636,14 @@ i {
 
 .btn-xsmall {
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: 400;
   background: #006a70;
   color: #ffff;
   height: 12px;
   width: 20px;
+  padding: 2px 5px;
 }
 
 /******************** NAVBAR ********************/
