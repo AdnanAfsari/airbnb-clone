@@ -24,6 +24,13 @@ h3 {
   background: #767676;
 }
 
+.border-1px {
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+  margin-top: 50px;
+}
+
 .img-W100 {
   height: 100%;
   width: 100%;
@@ -179,4 +186,29 @@ select {
 
 .more-about-hosting a {
   color: #008489;
+}
+
+/******************** READY TO EARN ********************/
+
+.read-to-earn {
+  min-height: 500px;
+}
+
+.rte-banner {
+  display: flex;
+  align-items: center;
+  min-width: 500px;
+  width: 100%;
+  min-height: 442px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url(https://a0.muscache.com/pictures/5e2dc3dd-9b87-4099-92ff-d504a86ca00d.jpg);
+}
+
+.h1-light {
+  text-align: left;
+  color: #fff;
+  margin-bottom: 30px;
 }
