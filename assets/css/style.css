@@ -79,3 +79,22 @@ select {
 .short-brief {
   min-height: 320px;
 }
+
+/******************** HOSTING-STEPS ********************/
+
+.hosting-steps {
+  min-height: 1000px;
+}
+
+.quote {
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  font-size: 100px;
+  color: rgb(253, 179, 43);
+}
+
+.host-Guarantee {
+  height: 100%;
+  width: 100%;
+}
