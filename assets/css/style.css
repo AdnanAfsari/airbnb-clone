@@ -113,3 +113,7 @@ select {
   padding: 0 12px;
   color: #008489;
 }
+
+.payment {
+  min-height: 900px;
+}
