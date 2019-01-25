@@ -24,6 +24,11 @@ h3 {
   background: #767676;
 }
 
+.img-W100 {
+  height: 100%;
+  width: 100%;
+}
+
 /******************** HEADER-SECTION ********************/
 
 .banner {
@@ -94,7 +99,17 @@ select {
   color: rgb(253, 179, 43);
 }
 
-.host-Guarantee {
-  height: 100%;
-  width: 100%;
+/******************** GOT-COVERED ********************/
+
+.got-covered {
+  min-height: 900px;
+}
+
+.covered-requirements ul li {
+  padding-bottom: 10px;
+}
+
+.covered-requirements i {
+  padding: 0 12px;
+  color: #008489;
 }
