@@ -6,6 +6,7 @@ The project is the exact replica of the contents on the page link above as at 25
 
 ## Author
 Adnan Afsari
+
 Lade James
 
 ## Technologies
