@@ -4,11 +4,7 @@ Airbnb clone is a onepage html and css project replicating a page on the officia
 
 The project is the exact replica of the contents on the page link above as at 25 - 01 - 2019.
 
-## Author
-Adnan Afsari
-
-Lade James
-
+![airbnb](airbnb.png "airbnb")
 ## Technologies
 HTML 5
 
@@ -23,3 +19,9 @@ CSS Reset
 `git clone https://github.com/AdnanAfsari/airbnb-clone.git`
 
 Here is a link to the live preview [preview](https://raw.githack.com/AdnanAfsari/airbnb-clone/development/index.html)
+
+
+## Author
+[James Okunlade](https://github.com/JamesOkunlade)
+
+[Adnan Afsari](https://github.com/AdnanAfsari)
